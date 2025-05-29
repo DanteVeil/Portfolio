@@ -1,13 +1,82 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  …
+  <link rel="stylesheet" href="k1-css.min.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <h1>Porfolio</h1>
-    <p>
-        Ipsu dolor
-    </p>
+  <!-- header/nav unchanged… -->
+
+  <main data-lenis-root>
+    <!-- 1️⃣ Welcome (display, white bg) -->
+    <section id="welcome"
+             class="k1-flex k1-items-center k1-justify-center k1-h-screen bg-white-custom k1-px-6">
+      <h1 class="font-display text-black-custom text-center">
+        Hey, I’m <span class="text-accent">Michael</span>
+      </h1>
+    </section>
+
+    <!-- 2️⃣ Hero (h2, black bg) -->
+    <section id="hero"
+             class="k1-flex k1-items-center k1-justify-center k1-h-screen bg-black-custom k1-px-6">
+      <h2 class="font-h2 text-white k1-text-center k1-max-w-3xl">
+        Create elevating digital experiences that inspire and connect…
+      </h2>
+    </section>
+
+    <!-- 3️⃣ About (h3 + body1/body2, off-white bg) -->
+    <section id="about"
+             class="k1-h-screen bg-offwhite k1-py-16 k1-px-6">
+      <div class="k1-container k1-grid md:k1-grid-cols-2 k1-gap-12 k1-items-center">
+        <img src="…" alt="Me" class="k1-rounded-2xl k1-shadow-lg object-cover" />
+        <div>
+          <h3 class="font-h3 text-black-custom k1-mb-4">A brief intro, who am I?</h3>
+          <p class="font-body1 text-gray-700 k1-mb-4">
+            I’m a graduate software engineer and web developer
+          </p>
+          <p class="font-body2 text-gray-700">
+            When I’m not coding, I create individual projects
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4️⃣ Services (h3 + list, light-gray bg) -->
+    <section id="services"
+             class="k1-h-screen bg-light-gray k1-py-16 k1-px-6">
+      <div class="k1-container k1-text-center">
+        <h3 class="font-h3 text-black-custom">Services</h3>
+        <ul class="k1-mt-8 k1-grid sm:k1-grid-cols-2 md:k1-grid-cols-3 k1-gap-6 text-gray-600 font-body1">
+          <li class="k1-p-4 k1-bg-white k1-rounded-lg k1-shadow-sm">Web Development</li>
+          <li class="k1-p-4 k1-bg-white k1-rounded-lg k1-shadow-sm">Web Design</li>
+          <li class="k1-p-4 k1-bg-white k1-rounded-lg k1-shadow-sm">Python Development</li>
+          <li class="k1-p-4 k1-bg-white k1-rounded-lg k1-shadow-sm">UI/UX Design</li>
+          <li class="k1-p-4 k1-bg-white k1-rounded-lg k1-shadow-sm">C# and Unity Development</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 5️⃣ Projects (h3 + cards, dark-gray bg) -->
+    <section id="projects"
+             class="k1-h-screen bg-dark-gray k1-py-16 k1-px-6">
+      <div class="k1-container">
+        <h3 class="font-h3 text-white k1-text-center">Recent Work</h3>
+        <div class="k1-mt-12 k1-grid md:k1-grid-cols-2 lg:k1-grid-cols-3 k1-gap-8">
+          <!-- project card -->
+          <div class="k1-bg-white k1-rounded-xl k1-shadow-lg overflow-hidden">
+            <img src="…" alt="" class="k1-w-full k1-h-48 object-cover"/>
+            <div class="k1-p-4">
+              <h4 class="font-h3 text-black-custom k1-mb-2">Project Title</h4>
+              <p class="font-body2 text-gray-700">Short description…</p>
+            </div>
+          </div>
+          <!-- …more cards… -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="main.js"></script>
 </body>
 </html>
