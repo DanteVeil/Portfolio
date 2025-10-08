@@ -32,10 +32,8 @@
 </head>
 <body class="bg-[#111111] text-gray-200 overflow-x-hidden">
 
-    <!-- Main Container -->
     <div class="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16">
 
-        <!-- Header/Hero Section -->
         <header class="py-24 md:py-32 border-b border-gray-700">
             <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-8 fade-up">
                 <div class="relative">
@@ -53,12 +51,10 @@
 
         <main>
 
-            <!-- What I Do Section -->
             <section id="what-i-do" class="py-24 md:py-32">
                 <h2 class="text-4xl md:text-5xl font-bold tracking-tight mb-16 fade-up">WHAT I DO /</h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-10 text-gray-300">
                     
-                    <!-- Item 1 -->
                     <div class="border-t border-gray-700 pt-6 flex justify-between items-start fade-up">
                         <div>
                             <h3 class="text-xl font-semibold text-white mb-2">Web Development</h3>
@@ -67,7 +63,6 @@
                         <a href="#" class="text-2xl mt-1">↗</a>
                     </div>
 
-                    <!-- Item 2 -->
                     <div class="border-t border-gray-700 pt-6 flex justify-between items-start fade-up">
                         <div>
                             <h3 class="text-xl font-semibold text-white mb-2">Mobile App Design</h3>
@@ -76,7 +71,6 @@
                         <a href="#" class="text-2xl mt-1">↗</a>
                     </div>
 
-                    <!-- Item 3 -->
                     <div class="border-t border-gray-700 pt-6 flex justify-between items-start fade-up">
                         <div>
                             <h3 class="text-xl font-semibold text-white mb-2">Web Design</h3>
@@ -85,7 +79,6 @@
                         <a href="#" class="text-2xl mt-1">↗</a>
                     </div>
                     
-                    <!-- Item 4 -->
                     <div class="border-t border-gray-700 pt-6 flex justify-between items-start fade-up">
                         <div>
                             <h3 class="text-xl font-semibold text-white mb-2">Branding</h3>
@@ -96,21 +89,39 @@
                 </div>
             </section>
 
-            <!-- Selected Works Section -->
             <section id="selected-works" class="py-24 md:py-32">
                 <h2 class="text-4xl md:text-5xl font-bold tracking-tight mb-16 fade-up">SELECTED WORKS / <span class="text-gray-500">[4]</span></h2>
 
                 <div class="space-y-20">
-                    <!-- Work Item 1 -->
-                    <a href="#" class="block group fade-up">
+                    
+                    <div class="block fade-up">
                         <div class="flex flex-col md:flex-row items-start gap-8 md:gap-16">
-                           <span class="text-8xl md:text-9xl font-black text-gray-700 group-hover:text-gray-500 transition-colors duration-300">01.</span>
+                            <span class="text-8xl md:text-9xl font-black text-gray-700">01.</span>
                             <div class="w-full md:w-2/3 lg:w-1/2 mt-4">
-                                <img src="https://placehold.co/600x400/1a1a1a/e0e0e0?text=Project+1" alt="Project 1" class="rounded-lg object-cover w-full h-auto transform group-hover:scale-105 transition-transform duration-300">
+                                
+                                <div class="relative w-full aspect-video rounded-lg overflow-hidden border-2 border-gray-700 shadow-lg">
+                                    <iframe 
+                                        src="https://your-username.github.io/your-game-repo/"  
+                                        frameborder="0" 
+                                        class="absolute top-0 left-0 w-full h-full"
+                                        allowfullscreen>
+                                    </iframe>
+                                </div>
+                                <div class="mt-6">
+                                    <h3 class="text-2xl font-bold text-white">Project Name: Space Shooter</h3>
+                                    <p class="text-gray-400 mt-2">
+                                        A fast-paced arcade shooter built with Unity and C#. Use the arrow keys to move and spacebar to shoot. Survive as long as you can!
+                                    </p>
+                                    <div class="mt-4 flex gap-4">
+                                        <span class="bg-gray-800 text-gray-300 text-sm font-medium px-3 py-1 rounded-full">Unity</span>
+                                        <span class="bg-gray-800 text-gray-300 text-sm font-medium px-3 py-1 rounded-full">C#</span>
+                                        <span class="bg-gray-800 text-gray-300 text-sm font-medium px-3 py-1 rounded-full">WebGL</span>
+                                    </div>
+                                </div>
+                    
                             </div>
                         </div>
-                    </a>
-                    <!-- Work Item 2 -->
+                    </div>
                     <a href="#" class="block group fade-up">
                         <div class="flex flex-col md:flex-row items-start gap-8 md:gap-16">
                            <span class="text-8xl md:text-9xl font-black text-gray-700 group-hover:text-gray-500 transition-colors duration-300">02.</span>
@@ -119,7 +130,6 @@
                             </div>
                         </div>
                     </a>
-                    <!-- Work Item 3 -->
                     <a href="#" class="block group fade-up">
                         <div class="flex flex-col md:flex-row items-start gap-8 md:gap-16">
                            <span class="text-8xl md:text-9xl font-black text-gray-700 group-hover:text-gray-500 transition-colors duration-300">03.</span>
@@ -128,7 +138,6 @@
                             </div>
                         </div>
                     </a>
-                    <!-- Work Item 4 -->
                     <a href="#" class="block group fade-up">
                         <div class="flex flex-col md:flex-row items-start gap-8 md:gap-16">
                            <span class="text-8xl md:text-9xl font-black text-gray-700 group-hover:text-gray-500 transition-colors duration-300">04.</span>
@@ -140,7 +149,6 @@
                 </div>
             </section>
             
-            <!-- About Me Section -->
             <section id="about-me" class="py-24 md:py-32">
                 <h2 class="text-4xl md:text-5xl font-bold tracking-tight mb-16 fade-up">A LITTLE BIT ABOUT ME /</h2>
                 <div class="flex flex-col md:flex-row items-center gap-12 md:gap-20 fade-up">
@@ -158,55 +166,49 @@
         </main>
     </div>
 
-    <!-- Light Background Section -->
     <div class="bg-[#EAE8E3] text-gray-800">
         <div class="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16">
 
-            <!-- Testimonials Section -->
             <section id="testimonials" class="py-24 md:py-32">
                  <h2 class="text-4xl md:text-5xl font-bold tracking-tight mb-16 text-gray-900 fade-up">DON'T TAKE MY WORD FOR IT /</h2>
                  <div class="space-y-8">
-                     <!-- Testimonial 1 -->
-                     <div class="bg-white/50 p-8 rounded-lg fade-up">
-                         <p class="text-gray-600 mb-4">"Huy is an incredibly talented designer. He was able to take our vague ideas and transform them into a stunning reality. The entire process was smooth, and his communication was top-notch."</p>
-                         <div class="flex items-center gap-4">
-                             <img src="https://placehold.co/40x40/cccccc/333333?text=A" alt="Avatar" class="w-10 h-10 rounded-full">
-                             <div>
-                                 <p class="font-semibold">Alice Johnson</p>
-                                 <p class="text-sm text-gray-500">CEO, Tech Innovators</p>
-                             </div>
-                         </div>
-                     </div>
-                     <!-- Testimonial 2 -->
-                     <div class="bg-white/50 p-8 rounded-lg fade-up">
-                         <p class="text-gray-600 mb-4">"Working with Huy was a game-changer for our project. His development skills are solid, and he delivered a high-quality product ahead of schedule. Highly recommended!"</p>
-                         <div class="flex items-center gap-4">
-                             <img src="https://placehold.co/40x40/cccccc/333333?text=M" alt="Avatar" class="w-10 h-10 rounded-full">
-                             <div>
-                                 <p class="font-semibold">Mark Roberts</p>
-                                 <p class="text-sm text-gray-500">Project Manager, Creative Solutions</p>
-                             </div>
-                         </div>
-                     </div>
+                      <div class="bg-white/50 p-8 rounded-lg fade-up">
+                          <p class="text-gray-600 mb-4">"Huy is an incredibly talented designer. He was able to take our vague ideas and transform them into a stunning reality. The entire process was smooth, and his communication was top-notch."</p>
+                          <div class="flex items-center gap-4">
+                               <img src="https://placehold.co/40x40/cccccc/333333?text=A" alt="Avatar" class="w-10 h-10 rounded-full">
+                               <div>
+                                   <p class="font-semibold">Alice Johnson</p>
+                                   <p class="text-sm text-gray-500">CEO, Tech Innovators</p>
+                               </div>
+                          </div>
+                      </div>
+                      <div class="bg-white/50 p-8 rounded-lg fade-up">
+                          <p class="text-gray-600 mb-4">"Working with Huy was a game-changer for our project. His development skills are solid, and he delivered a high-quality product ahead of schedule. Highly recommended!"</p>
+                          <div class="flex items-center gap-4">
+                               <img src="https://placehold.co/40x40/cccccc/333333?text=M" alt="Avatar" class="w-10 h-10 rounded-full">
+                               <div>
+                                   <p class="font-semibold">Mark Roberts</p>
+                                   <p class="text-sm text-gray-500">Project Manager, Creative Solutions</p>
+                               </div>
+                          </div>
+                      </div>
                  </div>
             </section>
             
-            <!-- Get In Touch Section -->
             <section id="get-in-touch" class="py-24 md:py-32 text-center">
                  <h2 class="text-4xl md:text-5xl font-bold tracking-tight mb-8 text-gray-900 fade-up">GET IN TOUCH /</h2>
                  <p class="text-gray-600 max-w-xl mx-auto mb-12 fade-up">
-                     Have a project in mind or just want to say hello? I'd love to hear from you.
+                      Have a project in mind or just want to say hello? I'd love to hear from you.
                  </p>
                  <div class="flex justify-center items-center gap-8 md:gap-12 fade-up">
-                     <a href="mailto:hello@example.com" class="text-lg font-semibold hover:text-black transition-colors">MAIL</a>
-                     <div class="h-12 w-12 bg-gray-400 rounded-full"></div>
-                     <a href="#" class="text-lg font-semibold hover:text-black transition-colors">LINKEDIN</a>
+                      <a href="mailto:hello@example.com" class="text-lg font-semibold hover:text-black transition-colors">MAIL</a>
                       <div class="h-12 w-12 bg-gray-400 rounded-full"></div>
-                     <a href="#" class="text-lg font-semibold hover:text-black transition-colors">DRIBBBLE</a>
+                      <a href="#" class="text-lg font-semibold hover:text-black transition-colors">LINKEDIN</a>
+                       <div class="h-12 w-12 bg-gray-400 rounded-full"></div>
+                      <a href="#" class="text-lg font-semibold hover:text-black transition-colors">DRIBBBLE</a>
                  </div>
             </section>
 
-            <!-- Footer -->
             <footer class="py-8 border-t border-gray-300">
                 <div class="flex flex-col sm:flex-row justify-between items-center text-sm text-gray-500 fade-up">
                     <p>&copy; 2025 Michael Simonyan</p>
